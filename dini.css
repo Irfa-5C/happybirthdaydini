@@ -1,0 +1,65 @@
+* /* universal selectors */
+{
+	font-family: MV Boli;
+}
+
+/* group selectors */
+
+h1, h2, h5 {
+	text-align: center; 
+}
+
+div, h5 {
+	background-color: rgba(300, 300, 300, 0.7);
+}
+
+/* class selectors */
+
+.border {
+	padding: 5px;
+	border-style: dashed;
+	border-color: #df73ff;
+	border-radius: 10px;
+}
+
+body {
+	background-image: url("/happybirthday/images/bg.jpg") ;
+	background-position: center;
+}
+
+h1 {
+	color: black;
+	background-color: #c8a2c8;
+	margin-top: 40px;
+	margin-bottom: 70px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+p {
+	text-align: justify;
+	font-size : 15px;
+	color: black;
+	float: left;
+
+}
+
+div {
+	padding: 20px;
+	height: 399px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 110px;
+	margin-right: 110px;
+	border-style: solid;
+}
+
+h2 { background-color: #b768a2;
+	color: black;
+
+}
+
+img { width: 150px; 
+	height: 150px;
+	margin: 5px;
+}
